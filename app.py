@@ -4,6 +4,7 @@ import webbrowser
 
 #Entrando no site do jogo
 webbrowser.open('https://www.crazygames.com.br/jogos/capybara-clicker')
+sleep(5)
 #Click pra iniciar o jogo
 pyautogui.click(1520, 553, duration = 2)
 #Abaixo desse comentário está o comando de abrir a tela do navegador e do jogo
